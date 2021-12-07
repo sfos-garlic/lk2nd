@@ -27,5 +27,6 @@ DTBS += \
 endif
 ifeq ($(PROJECT), msm8937-secondary)
 DTBS += \
-	$(LOCAL_DIR)/msm8937-nokia-nd1.dtb
+	$(LOCAL_DIR)/msm8937-nokia-nd1.dtb \
+	$(LOCAL_DIR)/msm8937-yu-garlic.dtb
 endif
